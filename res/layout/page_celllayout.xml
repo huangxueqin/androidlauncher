@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     <ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+-->
+<com.hxq.test.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res/com.hxq.test"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    test:cellHeight="@dimen/cell_height"
+    test:cellWidth="@dimen/cell_width"
+    test:heightGap="@dimen/cell_height_gap"
+    test:widthGap="@dimen/cell_width_gap" >
+
+</com.hxq.test.CellLayout>

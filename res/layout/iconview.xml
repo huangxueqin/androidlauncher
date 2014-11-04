@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hxq.test.BubbleTextView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/WorkspaceIcon.Portrait"
+   android:focusable="false"
+   android:textSize="@dimen/middle_app_text_size" />

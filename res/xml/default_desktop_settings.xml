@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:test="http://schemas.android.com/apk/res/com.hxq.test">
+    <favorite
+        test:packageName="com.android.calculator2"
+        test:className="com.android.calculator2.Calculator"
+        test:page="0"
+        test:pos="0" />
+    
+    <favorite
+        test:packageName="com.android.settings"
+        test:className="com.android.settings.Settings"
+        test:page="0"
+        test:pos="1" />
+</favorites>

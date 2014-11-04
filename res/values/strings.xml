@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="application_name">Launcher</string>
+    <string name="permlab_read_settings">perm_Label_read_permission</string>
+    <string name="permdesc_read_settings">perm_desc_read_permission</string>
+    <string name="permlab_write_settings">perm_Label_write_permission</string>
+    <string name="permdesc_write_settings">perm_desc_write_permission</string>
+
+</resources>

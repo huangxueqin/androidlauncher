@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hxq.test.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_draglayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        <com.hxq.test.Workspace
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:test="http://schemas.android.com/apk/res/com.hxq.test"
+            android:id="@+id/id_workspace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            test:pageLayoutPaddingTop="@dimen/pagedView_paddingTop" >
+
+            <include
+                android:id="@+id/id_cell1"
+                layout="@layout/page_celllayout" />
+
+            <include
+                android:id="@+id/id_cell2"
+                layout="@layout/page_celllayout" />
+
+            <include
+                android:id="@+id/id_cell3"
+                layout="@layout/page_celllayout" />
+        </com.hxq.test.Workspace>
+</com.hxq.test.DragLayer>

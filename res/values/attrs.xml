@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Favorite">
+        <attr name="className" format="string" />
+        <attr name="packageName" format="string" />
+        <attr name="page" format="string" />
+        <attr name="pos" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CellLayout">
+        <attr name="cellWidth" format="dimension" />
+        <attr name="cellHeight" format="dimension" />
+        <attr name="widthGap" format="dimension" />
+        <attr name="heightGap" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="PagedView">
+        <attr name="pageLayoutPaddingLeft" format="dimension" />
+        <attr name="pageLayoutPaddingTop" format="dimension" />
+        <attr name="pageLayoutPaddingRight" format="dimension" />
+        <attr name="pageLayoutPaddingBottom" format="dimension" />
+        
+        <attr name="pageSpacing" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="use_custom_icon_size">false</bool>
+    <bool name="use_custom_page_gap_size">false</bool>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hxq.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <permission
+            android:name="com.hxq.test.permission.READ_SETTINGS"
+            android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+            android:protectionLevel="normal"
+            android:label="@string/permlab_read_settings"
+            android:description="@string/permdesc_read_settings"/>
+    <permission
+            android:name="com.hxq.test.permission.WRITE_SETTINGS"
+            android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+            android:protectionLevel="normal"
+            android:label="@string/permlab_write_settings"
+            android:description="@string/permdesc_write_settings"/>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:name=".LauncherApplication"
+        android:label="@string/application_name"
+        android:icon="@drawable/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar"
+        android:allowBackup="true"
+        >
+        <activity
+            android:name="com.hxq.test.Launcher"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.hxq.test.launcherprovider" android:name="com.hxq.test.LauncherProvider"
+                  android:writePermission="com.hxq.test.permission.WRITE_SETTINGS"
+                  android:readPermission="com.hxq.test.permission.READ_SETTINGS" />
+    </application>
+
+</manifest>

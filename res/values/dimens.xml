@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_width">76dp</dimen> <!-- 76 -->
+    <dimen name="cell_height">76dp</dimen> <!-- 132 -->
+    <dimen name="cell_width_gap">4dp</dimen>
+    <dimen name="cell_height_gap">4dp</dimen>
+    
+    <!-- for pagedView -->
+    <dimen name="page_gap">132dp</dimen>
+    <dimen name="pagedView_paddingTop">50dp</dimen>
+    
+    <!-- for workspace icons -->
+    <dimen name="app_icon_padding_top">4dp</dimen>
+    <dimen name="app_icon_padding_bottom">4dp</dimen>
+    <dimen name="app_icon_padding_left">4dp</dimen>
+    <dimen name="app_icon_padding_right">4dp</dimen>
+    <dimen name="middle_app_text_size">10sp</dimen>
+    <dimen name="text_drawable_padding">2dp</dimen>
+    <dimen name="app_icon_size">48dp</dimen>
+</resources>
